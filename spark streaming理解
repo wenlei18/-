@@ -1,0 +1,8 @@
+1.spark streaming构建分为4部分: 1）RDD DAG静态模板定义
+                                2）job动态生成
+                                3）数据的产生与导入
+                                4）长时容错
+2. 1)DStreamGraph，DStream,InputDStream,ForEachDStream
+   2)jobscheduler,jobgenerator(job生成器),
+   3)receivertracker,receiverblocktracker, receiversupervisor,receiver,blockgenerator
+     
